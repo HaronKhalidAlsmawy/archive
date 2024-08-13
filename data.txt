@@ -1,0 +1,32 @@
+Question:
+In an application, based on user searches, a number of ads are displayed, and each user may view one or more ads. The number of ads viewed by each user follows which probability distribution, and how can the parameters of this distribution be estimated?
+
+Answer:
+The number of ads viewed by a user in the application follows a binomial distribution. The binomial distribution is used to model the number of successes in a series of independent trials, where each trial has only two possible outcomes (success or failure). In this case, a success can be considered as viewing an ad.
+
+Binomial Distribution:
+The binomial distribution has two parameters:
+
+( n ): The total number of trials (in this case, the total number of ads that could potentially be displayed).
+( p ): The probability of success in each trial (in this case, the probability of viewing an ad by a user).
+Parameter Estimation:
+Estimating ( p ):
+
+To estimate ( p ) (the probability of viewing an ad), you can use the average number of ads viewed by users.
+If the number of ads viewed by users is given as ( x_1, x_2, ..., x_n ), calculate the average of these values: [ \hat{p} = \frac{1}{n} \sum_{i=1}^n x_i ]
+Estimating ( n ):
+
+To estimate ( n ) (the total number of ads), you might need additional information. If the total number of ads is known, then ( n ) is simply that known value.
+add Codeadd Markdown
+​
+add Codeadd Markdown
+Type Markdown and LaTeX:  α2
+ 
+add Codeadd Markdown
+Geometric Distribution Analysis
+This notebook includes the following tasks for the geometric distribution discussed in Question 2:
+
+Generate random samples
+Calculate a frequency table
+Visualize samples versus the theoretical distribution
+Display the cumulative distribution function (CDF)
